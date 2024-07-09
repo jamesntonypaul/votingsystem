@@ -3,7 +3,7 @@ const express = require('express');
 const Web3 = require('web3');
 const contractABI = require('./contractABI.json');
 const app = express();
-const web3 = new GivenProvider || "http://127.0.0.1:7545")
+const web3 = new GivenProvider || "--XXGanache PortXX---")
 const VotingSystemContract = new web3.eth.Contract(contractABI);
 const cors = require('cors');
 let accounts1,accounts2;
